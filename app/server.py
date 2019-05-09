@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=15sVzdp4G2LfhAFOfLYr-tngWuzLeznDU'
+export_file_name = 'ne_flower_model.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['aster','black-eyed-susan', 'helenium', 'hemerocallis', 'japanese-anemone', 'monarda', 'sunflower', 'toad-lily']
 path = Path(__file__).parent
 
 app = Starlette()
