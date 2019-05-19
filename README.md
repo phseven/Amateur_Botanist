@@ -1,7 +1,9 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# Using a CNN deep learning model to build a flower classifier
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+I use a few hundred images of flowers, commonly found during Spring in New England, to train a CNN classifier. 
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
+Currently the model can identify the following flowers: Aster, Black Eyed Susan, Helenium, Hemerocallis, Japanese Anemone, Monarda, Sunflower and Toad Lily. If the test image is not from this set of flowers, it will unfortunately still classify it as one. 
 
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
+As they say: Sometimes wrong, but never in doubt.
+
+https://flowers-hnqa.onrender.com/
