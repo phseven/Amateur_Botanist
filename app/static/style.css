@@ -15,7 +15,8 @@ body {
     padding-left:50px;
     padding-right:50px;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
+    color: #fff;
 }
 
 .title {
@@ -36,14 +37,14 @@ body {
 
 .upload-label {
     padding: 10px;
-    font-size: 12px;
+    font-size: 18px;
     color: #fff;
 }
 
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
+    font-size: 24px;
     color: #fff;
 }
 
