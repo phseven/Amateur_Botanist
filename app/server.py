@@ -12,7 +12,7 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/uc?export=download&id=15sVzdp4G2LfhAFOfLYr-tngWuzLeznDU'
 export_file_name = 'ne_flower_model.pkl'
 
-classes = ['aster','black-eyed-susan', 'helenium', 'hemerocallis', 'japanese-anemone', 'monarda', 'sunflower', 'toad-lily']
+classes = ['Aster','Black Eyed Susan', 'Helenium', 'Hemerocallis', 'Japanese Anemone', 'Monarda', 'Sunflower', 'Toad Lily']
 path = Path(__file__).parent
 
 app = Starlette()
