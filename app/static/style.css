@@ -1,5 +1,8 @@
 body {
     background-color: #fff;
+    background-image: url("aster_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .no-display {
