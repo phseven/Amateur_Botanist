@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #f4b342;
     background-image: url("aster_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,11 +22,12 @@ body {
     font-size: 30px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
+    color: #fff;
 }
 
 .content {
     margin-top: 10em;
+    color: #fff;
 }
 
 .analyze {
@@ -36,12 +37,14 @@ body {
 .upload-label {
     padding: 10px;
     font-size: 12px;
+    color: #fff;
 }
 
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 13px;
+    color: #fff;
 }
 
 button.choose-file-button {
